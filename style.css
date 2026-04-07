@@ -1,0 +1,36 @@
+body{
+    background-color: #f4f4f4;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    text-align: center;
+    color:cornflowerblue;
+
+}
+
+h2{
+    color: cornflowerblue;
+
+}
+
+#gostos{color: chartreuse;}
+
+#desgostos{color: red;}
+
+p{
+    font-size: 16px;
+}
+
+section{
+    margin: 20px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+
+}
+
+footer{
+    text-align: center;
+    color: gray;
+}

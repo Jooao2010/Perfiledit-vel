@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil Interativo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h1>Meu Perfil</h1>
+
+<div class="perfil">
+    <div class="foto" id="foto"></div>
+
+    <h2 id="nome">João</h2>
+
+    <p id="descricao">Olá! Essa é minha descrição.</p>
+
+    <button onclick="abrirMenu()">Editar</button>
+
+    <div id="menuEdicao">
+        <input type="text" id="inputNome" placeholder="Novo nome">
+        <button onclick="mudarNome()">Mudar nome</button>
+        <br>
+
+        <input type="color" id="inputCor">
+        <button onclick="mudarCor()">Mudar cor do perfil</button>
+        <br>
+
+        <input type="text" id="inputDescricao" placeholder="Nova descrição">
+        <button onclick="mudarDescricao()">Mudar descrição</button>
+    </div>
+</div>
+<script src="script.js"></script>
+
+</body>
+</html>
